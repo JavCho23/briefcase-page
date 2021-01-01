@@ -2,4 +2,39 @@
     height: 5vh;
     padding: 1em;
     display: flex;
+    justify-content: space-between;
+}
+
+.profile__image {
+    height: 2em;
+    margin-right: 0.5em;
+}
+
+.header__profile {
+    display: flex;
+    align-items: center;
+}
+.header__options {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+    right: 1em;
+}
+.header__menu:hover .header__options,
+.header__options:hover {
+    display: block;
+}
+.options__item {
+    margin: 0.5em 0em;
+    width: 7em;
+}
+.options__item:hover{
+  text-decoration-line: underline;
+}
+.options__item a {
+    color: black;
+    text-decoration: none;
 }
