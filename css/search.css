@@ -1,0 +1,19 @@
+.search {
+    margin: 1.5em;
+    margin-top: 5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.search__title {
+    text-align: center;
+}
+.search__input {
+    outline: none;
+    border: 2px solid black;
+    border-radius: 1.5em;
+    font-size: 16px;
+    height: 40px;
+    padding: 0 1em;
+    width: 70%;
+}
