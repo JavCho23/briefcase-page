@@ -15,12 +15,12 @@
     width: 12em;
     height: 15em;
     border-radius: 1em;
-    background-color: rgb(255, 145, 0);
     overflow: hidden;
     margin-right: 0.8em;
     cursor: pointer;
     transition: 400ms;
     transform-origin: center left;
+    position: relative;
 }
 
 .carousel__item:hover ~ .carousel__item {
@@ -34,4 +34,29 @@
 .carousel__container:hover .carousel__item:hover {
     transform: scale(1.5);
     opacity: 1;
+}
+
+.carousel__image {
+    object-fit: cover;
+}
+.carousel__item:hover .carousel__details {
+    opacity: 1;
+}
+.carousel__details {
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    font-size: 10px;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 3em;
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: white;
 }
