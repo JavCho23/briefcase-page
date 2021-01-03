@@ -8,7 +8,7 @@
 .carousel__container {
     white-space: nowrap;
     margin: 2em 0em;
-    padding-bottom: 1em;
+    padding: 2em 0;
 }
 .carousel__item {
     display: inline-block;
@@ -51,12 +51,22 @@
     font-size: 10px;
     opacity: 0;
     transition: 450ms opacity;
-    padding: 3em;
+    padding: 1em;
     position: absolute;
-    
+
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0;
     color: white;
+}
+.carousel__actions {
+    display: flex;
+    align-items: center;
+}
+.carousel__actions img {
+    margin-right: 0.5em;
+}
+.carousel__company {
+    margin: 0;
 }
