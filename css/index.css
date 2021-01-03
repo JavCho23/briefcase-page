@@ -6,5 +6,29 @@
 body {
     margin: 0;
     background-color: var(--background-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+
+.footer {
+    background: linear-gradient(
+        to top,
+        rgba(255, 254, 254, 0.9) 0%,
+        rgba(180, 167, 167, 0) 100%
+    );
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.footer a {
+    padding-left: 30px;
 }

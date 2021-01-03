@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="../css/login.css" />
+        <title>{Jav}</title>
+    </head>
+    <body>
+        <header class="header">
+            <img class="header__logo" src="../img/logo.png" alt="Jav" />
+            <h1>Portafolio</h1>
+            <div class="header__menu">
+                <div class="header__profile">
+                    <img class="profile__image" src="../img/user.png" alt="" />
+                    <p>Perfil</p>
+                </div>
+                <ul class="header__options">
+                    <li class="options__item"><a href="/">Cuenta</a></li>
+                    <li class="options__item"><a href="/">Cerrar sesión</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="content">
+            <section class="login">
+                <h2>Bienvenido</h2>
+                <form class="login__form">
+                    <input
+                        type="text"
+                        placeholder="Correo"
+                        class="login__input"
+                    />
+                    <input
+                        type="text"
+                        placeholder="Contraseña"
+                        class="login__input"
+                    />
+                    <button class="login__button">Iniciar sesión</button>
+                    <div class="login__actions">
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="remember-me"
+                                id="remember-me"
+                            />
+                            Recuerdame
+                        </label>
+                        <a class="login__forgot-password" href=""
+                            >Olvidé mi contraseña</a
+                        >
+                    </div>
+                </form>
+                <section class="login__social-media">
+                    <div class="social-meadia__item">
+                        <img
+                            src="https://img.icons8.com/ios-filled/20/000000/google-logo.png"
+                        />
+                        <p>Continuar con google</p>
+                    </div>
+                    <div class="social-meadia__item">
+                        <img
+                            src="https://img.icons8.com/ios-filled/20/000000/facebook-new.png"
+                        />
+                        <p>Continuar con facebook</p>
+                    </div>
+                </section>
+                <p class="login__footer">
+                    ¿No tienes ninguna cuenta? <a href="/">Registrate</a>
+                </p>
+            </section>
+        </section>
+        <footer class="footer">
+            <a href="/">Términos de uso</a>
+            <a href="/">Declaración de privacidad</a>
+            <a href="/">Centro de ayuda</a>
+        </footer>
+    </body>
+</html>
